@@ -8,21 +8,24 @@
   <title>Round 6</title>
 </head>
 <body>
-  <span>
-    <audio loop autoplay>
-      <source src="assets/round-6.mp3" type="audio/mpeg">  
-    </audio>
-  </span>
+  <audio loop autoplay id="player">
+    <source src="assets/round-6.mp3" type="audio/mpeg">  
+  </audio>
   
   <video autoplay muted loop id="squid">
     <source src="assets/squid.webm" type="video/mp4">
   </video>
 
+  <div class="controls">
+    <button class="play" onclick="document.getElementById('player').play()"></button>
+    <button class="mute" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></button>
+  </div>
+
   <div class="container">
-    <section class="card">
+    <section class="card ">
       <div class="circle"></div>
       <div class="triangle"></div>
-      <div class="square"></div>    
+      <div class="square"></div>
     </section>
     <section class="back">
       <a href="https://api.whatsapp.com/send?phone=5516982212222&text=Batatinha%20frita%201%2C2%2C3">

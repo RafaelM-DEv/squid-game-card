@@ -27,6 +27,49 @@ body {
   height: 100vh;
 }
 
+.controls {
+  position: absolute;
+  display: flex;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  margin: 5px 10px;
+}
+
+.play {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-image: url('assets/play_arrow_white_24dp.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.mute {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-image: url('assets/volume_off_white_24dp.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.mute:hover {
+  transform: scale(1.1);
+}
+
+.play:hover {
+  transform: scale(1.1);
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -103,4 +146,9 @@ section {
   height: 80vh;
   transform: scale(2);
   z-index: -1;
+}
+
+
+.flip {
+  transform: rotateY(180deg);
 }

@@ -49,10 +49,5 @@ back.addEventListener('click', (e) => {
   flip = false
 })
 
-
-// container.addEventListener('mousemove', (e) => {
-//   back.style.zIndex = '-1'
-// })
-
 console.log("%c Os participantes assinam um termo de consentimento com apenas três regras: \n O jogo dura seis rounds e não pode ser interrompido;    \n O jogador que quiser sair do jogo no meio da ação será eliminado;  \n O jogo pode ser interrompido caso, em votação, a maioria decida que é hora de parar.", "background: purple; padding: 10px;")
 

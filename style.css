@@ -13,6 +13,11 @@ body {
   overflow: hidden;
 }
 
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   display: flex;
   justify-content: center;

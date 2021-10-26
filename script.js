@@ -16,9 +16,9 @@ container.addEventListener("mouseenter", (e) => {
 })
 
 container.addEventListener("mouseleave", (e) => {
-  card.style.transition = 'all 0.5s ease'
+  card.style.transition = 'all 0.6s ease'
   card.style.transform = `rotateY(0deg) rotateX(0deg)`
-  back.style.transition = 'all 0.5s ease'
+  back.style.transition = 'all 0.6s ease'
   back.style.transform = `rotateY(0deg) rotateX(0deg)`
 })
 
